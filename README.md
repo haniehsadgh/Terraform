@@ -14,6 +14,8 @@ Infrastructure as Code (IaC) principles using Terraform with AWS provider
 
 - ec2 Instances: aws ec2 describe-instances --output table
 
+I have used my "demo_key.pem" for ssh and create the instances
+but you need to generate a ssh key and used the private key instead of my demo_key.pem
 
 To run the main.tf terraform configuration file:
 - navigate to the directory where main.tf is located
